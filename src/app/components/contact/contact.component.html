@@ -1,0 +1,42 @@
+<form class="container mt-5 w-50"
+#form="ngForm"
+(ngSubmit)="estoEsLoQueQuieroHacer()">
+
+    <div class="mb-3">
+      <label class="form-label fw-bold">Nombre</label>
+      <input
+      name="nombre"
+      type="text"
+      [(ngModel)]="nombre"
+      class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label fw-bold">Email</label>
+      <input
+      name="email"
+      [(ngModel)]="email"
+      type="email" 
+      class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label fw-bold">Telefono</label>
+      <input
+      name="phone"
+      [(ngModel)]="telefono"
+      type="text" 
+      class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label fw-bold">Direccion</label>
+      <input
+      name="direc"
+      [(ngModel)]="direccion"
+      type="text" 
+      class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: url('assets/fondo2.jpg');
+    background-size:20em 20em;
+    background-attachment: fixed;
+    background-repeat:repeat;
+    object-fit: cover;
+
+
+}
